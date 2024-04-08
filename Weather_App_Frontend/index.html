@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <form id="form-id">
+            <input type="text" id="city" placeholder="Enter city name for weather" required/>
+            <select id="filter" required>
+                <option disabled selected>--- Select  forcast  type ---</option>
+                <option>Forecast Summary</option>
+                <option>Forecast Hourly</option>
+            </select>
+            <br><br>
+            <input id="search" type="submit" value="Search"/>
+        </form>
+    </center>
+    <h1 id="title"></h1>
+    <div id="forecast-tables" style="display: flex; justify-content: space-around;">
+   
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
